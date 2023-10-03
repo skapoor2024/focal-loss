@@ -2,6 +2,8 @@ from ._binary_focal_loss import binary_focal_loss
 from ._binary_focal_loss import BinaryFocalLoss
 from ._categorical_focal_loss import sparse_categorical_focal_loss
 from ._categorical_focal_loss import SparseCategoricalFocalLoss
+from ._cat_focal_loss import categorical_focal_loss
+from ._cat_focal_loss import CategoricalFocalLoss
 
 # Package information
 __package__ = 'focal-loss'
